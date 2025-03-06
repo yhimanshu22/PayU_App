@@ -1,70 +1,45 @@
-# PayTM_MERN_Stack
+# PayU App
 
-## Overview
+## Description
 
-This is a full-stack Paytm-like application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). The application allows users to sign up, sign in, and send money to their friends.
+PayU App is a payment application designed for basic transactions. It aims to provide a simple and intuitive interface for users to manage their payments efficiently.
 
 ## Features
 
-- User authentication (sign up, sign in, logout)
-- Wallet functionality for users
-- Send money to friends
-- Transaction history
+- Secure and easy-to-use payment interface
+- Supports multiple payment methods
+- Transaction history and tracking
+- User authentication and authorization
 
-## Tech Stack
+## Installation
 
-- **Frontend:**
-  - React.js
-  - React Router for navigation
-  - Axios for API requests
-  - Tailwind css
+To install and run the PayU App locally, follow these steps:
 
-- **Backend:**
-  - Node.js with Express.js
-  - MongoDB for database
-  - Mongoose for MongoDB object modeling
-  - JWT for authentication
-
-## Setup
-
-  **Clone the Repository:**
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Mayur-Shiwal/PayTM_MERN_Stack.git
-   cd PayTM_MERN_Stack
-```
-**Install backend dependencies**
-```
-cd backend
-npm install
-``` 
-**Install frontend dependencies**
-```
-cd ../frontend
-npm install
-```
-**Configure Environment Variable:**
-   Create a .env file in the server directory and configure the following variables:
+   git clone https://github.com/yhimanshu22/PayU_App.git
+   cd PayU_App
    ```
-   PORT=3000
-   MONGODB_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret
-  ```
-**Run the application:**
-   **Run the server (in the server directory)**
-  ```
-  cd backend
-  npm start
-  ```
-  **Run the client (in the client directory)**
-  ```
-  cd ../frontend
-  npm start
-  ```
-**Access the Application:**
-- Open your browser and go to http://localhost:3000 to access the Paytm application.
 
-## Contributing:
-- Feel free to contribute to the project. You can contribute by opening issues, submitting pull requests, or suggesting new features.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the application:**
+   ```bash
+   npm start
+   ```
+
+## Contributing
+
+We welcome contributions from the community! To contribute, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-branch-name`
+3. Make your changes and commit them: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature-branch-name`
+5. Create a pull request.
 
 
-
+Thank you for using PayU App!
